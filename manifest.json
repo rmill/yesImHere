@@ -13,7 +13,8 @@
             "http://grooveshark.com/*"
         ],
         "js": [
-            "main.js"
+            "contentScript.js"
         ]
-    }]
+    }],
+    "web_accessible_resources": ["script.js"]
 }
