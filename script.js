@@ -9,8 +9,8 @@ var readyStateCheckInterval = setInterval(function() {
         // Party On
         var GroovesharkApi = window.Grooveshark;
         GroovesharkApi.setSongStatusCallback(function() {
-            // Accessing the API stops the modal from popping up
-            GroovesharkApi.getAPIVersion();
+            // Click the resume buttin if it exists
+            $('[data-translate-text="LB_INTERACTION_TIME_RESUME"]').click();
         })
     }
 }, 10);
